@@ -26,7 +26,7 @@ DAY_DATA = {0: 'Monday',
               4: 'Friday',
               5: 'Saturday',
               6: 'Sunday'}
-
+#refactoring get_filters
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -58,7 +58,7 @@ def get_filters():
     print('-'*40)
     return city.lower(), month, day
 
-
+#refactoring load_data
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -189,7 +189,7 @@ def print_dataset(city, month, day):
         else:
             print("City: ", city, " Month: ", MONTH_DATA[int(month)], " Day: ", DAY_DATA[int(day)])
 
-
+#refactoring display_data
 def display_data(df):
     pd.set_option('display.max_columns', None)# configuration to show all columns
     start_index = 0
