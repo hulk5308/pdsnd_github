@@ -189,7 +189,7 @@ def print_dataset(city, month, day):
         else:
             print("City: ", city, " Month: ", MONTH_DATA[int(month)], " Day: ", DAY_DATA[int(day)])
 
-
+#refactoring display_data
 def display_data(df):
     pd.set_option('display.max_columns', None)# configuration to show all columns
     start_index = 0
