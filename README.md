@@ -7,7 +7,7 @@
 Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+bikeshare data analysis
 
 ### Files used
 Include the files used
