@@ -26,7 +26,7 @@ DAY_DATA = {0: 'Monday',
               4: 'Friday',
               5: 'Saturday',
               6: 'Sunday'}
-
+#refactoring get_filters
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
